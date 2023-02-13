@@ -25,7 +25,7 @@
 
     $this->db->select('*');
     $this->db->from('contents');
-    $this->db->where('id','4');
+    $this->db->where('id','5');
     $sql=$this->db->get();
     foreach($sql->result() as $data)
     {
@@ -34,7 +34,7 @@
 
 <form class=""  method="post" action="<?php echo base_url("Super_admin/update_content_process");?>">
 
-<input type="hidden" name="id" value="4">
+<input type="hidden" name="id" value="5">
 <input type="text" name="head" id="name" class="heading" value="<?php echo $data->heading; ?>"> 
 <br>
 <br>
