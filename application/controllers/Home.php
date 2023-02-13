@@ -33,10 +33,10 @@ class Home extends CI_Controller {
 		$this->load->view('downloads.php');
 		$this->load->view('footer.php');
 	}
-	public function registrations()
+	public function registration()
 	{
 		$this->load->view('header.php');
-		$this->load->view('registrations.php');
+		$this->load->view('registration.php');
 		$this->load->view('footer.php');
 	}
 	public function venue()

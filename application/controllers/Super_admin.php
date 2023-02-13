@@ -24,19 +24,19 @@ class Super_admin extends CI_Controller {
 	public function collaboration()
 	{
 		$this->load->view('super_admin/dash_header.php');
-		$this->load->view('collabosuper_admin/ration.php');
+		$this->load->view('super_admin/collaboration.php');
 		$this->load->view('super_admin/dash_footer.php');
 	}
 	public function downloads()
 	{
 		$this->load->view('super_admin/dash_header.php');
-		$this->load->view('dowsuper_admin/nloads.php');
+		$this->load->view('super_admin/downloads.php');
 		$this->load->view('super_admin/dash_footer.php');
 	}
-	public function registrations()
+	public function registration()
 	{
 		$this->load->view('super_admin/dash_header.php');
-		$this->load->view('registrsuper_admin/ations.php');
+		$this->load->view('super_admin/registration.php');
 		$this->load->view('super_admin/dash_footer.php');
 	}
 	public function venue()

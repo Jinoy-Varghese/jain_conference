@@ -1,6 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+if(!isset($_SESSION['u_id']) OR $_SESSION['role']!="Super Admin")
+{
+  redirect('Home/login','refresh');
+}
 
 
 ?>
